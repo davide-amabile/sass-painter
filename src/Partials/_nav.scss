@@ -1,0 +1,41 @@
+// _nav
+.wrapper_nav{
+  height: 140px;
+  width: 100%;
+  background-color: $colorBlack;
+  .nav_general{
+    height: 100%;
+    width: 1200px;
+    margin: auto;
+    // nav contatti
+    .nav_contatti{
+      @include navFlex;
+      color: $colorGrey;
+      justify-content: flex-end;
+      line-height: 70px;
+      // div phone
+      .phone{
+        padding: 0 10px;
+        text-align: center;
+        white-space: normal;
+        // icone
+        i {
+          color: $colorIconNav;
+        }
+        // icone
+        span{
+          font-size: 12px;
+        }
+      }
+      // div phone
+    }
+    // /nav contatti
+    // nav info
+    .nav_info{
+      @include navFlex;
+    }
+    // /nav info
+  }
+  // /nav general
+}
+// /nav
