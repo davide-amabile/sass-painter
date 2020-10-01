@@ -3,3 +3,8 @@
   width: 100%;
   height: 70px;
 }
+
+@mixin imgBack {
+  background-repeat: no-repeat;
+  background-size: cover;
+}

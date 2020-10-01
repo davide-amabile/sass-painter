@@ -1,0 +1,21 @@
+.jumbo {
+  width: 100%;
+  height: 450px;
+  background-image: url("img/hero.jpg");
+  @include imgBack;
+  background-position: 70% 50%;
+  position: relative;
+  // div primo listato
+  .essential{
+    border: 1px solid black;
+    width: 500px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 450px;
+    padding: 25px 10px;
+    color: $colorWhite;
+    white-space: normal;
+  }
+  // /div primo listato
+}
