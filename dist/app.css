@@ -37,4 +37,11 @@
   display: flex;
   width: 100%;
   height: 70px;
+  justify-content: flex-start;
+  line-height: 70px;
+  color: #fff;
+}
+.wrapper_nav .nav_general .nav_info .info_search {
+  padding: 0 10px;
+  text-align: center;
 }

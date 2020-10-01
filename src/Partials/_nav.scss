@@ -33,6 +33,20 @@
     // nav info
     .nav_info{
       @include navFlex;
+      justify-content: flex-start;
+      line-height: 70px;
+      color: #fff;
+      // info
+      .info_search{
+        padding: 0 10px;
+        text-align: center;
+        // img logo
+        .logo{
+          
+        }
+        // /img logo
+      }
+      // info
     }
     // /nav info
   }
